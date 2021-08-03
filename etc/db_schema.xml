@@ -1,0 +1,14 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="quote">
+        <column xsi:type="varchar" name="time" nullable="true" comment="Time shipping"/>
+        <column xsi:type="varchar" name="customvar" nullable="true" comment="customvar"/>
+        <column xsi:type="date" name="date" nullable="true" comment="Date shipping"/>
+    </table>
+
+    <table name="sales_order">
+        <column xsi:type="varchar" name="time" nullable="true" comment="Time shipping"/>
+        <column xsi:type="varchar" name="customvar" nullable="true" comment="customvar"/>
+        <column xsi:type="date" name="date" nullable="true" comment="Date shipping"/>
+    </table>
+</schema>
